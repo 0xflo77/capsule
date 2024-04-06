@@ -49,7 +49,7 @@ for i in range(80):
             <use xlink:href="#path_1" clip-rule="evenodd" fill-rule="evenodd" />
         </clipPath>
     </defs>
-
+    <rect width="100%" height="100%" fill="black" />
     <g id="capsule-final">
         <path d="M800 0L800 0L800 800L0 800L0 0L800 0Z" id="capsule-final" fill="none" stroke="none" />
         <path d="M600 502C600 556.124 555.228 600 500 600L300 600C244.772 600 200 556.124 200 502L600 502Z" id="Base" fill="{'#' + base_top_color}" fill-rule="evenodd" stroke="#000000" stroke-width="0" clip-path="url(#clip_1)" />
