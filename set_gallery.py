@@ -39,6 +39,7 @@ for svg_file in svg_files:
     html_content += f'''
         <div>
             <img src="{latest_set_dir}/{svg_file}" width="100" height="100">
+            <div class="file-name">File: {svg_file}</div>
             <div class="color-info">Base: {base_color}</div>
             <div class="color-info">Eyelid: {eyelid_color}</div>
         </div>\n'''
